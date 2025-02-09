@@ -1,0 +1,13 @@
+/* Correct usage of calc() */
+#element {
+  width: calc(100% - 10px);
+  /* correct spacing */
+  height: calc( 200px + 10% );
+  margin: calc( (100% - 50px)/2 ); 
+}
+
+/* Incorrect usage (missing units and incorrect spacing) */
+/*#element {
+  width: calc(100%-10);
+  height: calc(200px+10%);
+}*/
